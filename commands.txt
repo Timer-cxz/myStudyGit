@@ -5,6 +5,7 @@
   b. git init
   c. touch readme.txt && git add readme.txt && git commit -m "add readme doc"
 2. 修改文件
+  git show
   git status
   git diff
   git add
@@ -30,6 +31,7 @@
     git remote add upstream https://github.com/cxz19871115/myStudyGit.git
   b. 将本地库内容推送至远程库
     git push [-u] origin master
+    git push origin local_dev:remote_dev
   c. 从远程库clone一个到本地
     git clone git@github.com:Timer-cxz/myStudyGit.git
 8. 创建和切换分支
