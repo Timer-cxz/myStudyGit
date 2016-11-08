@@ -38,7 +38,7 @@
   git checkout -b dev
    = git branch dev       (创建)
      git checkout dev     (切换)
-  git branch              (查看)
+  git branch [-vv]        (查看)
   git merge dev           (合并dev至当前分支)
   git branch -d|-D dev    (删除分支)
 9. 解决冲突
