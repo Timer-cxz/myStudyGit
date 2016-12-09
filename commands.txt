@@ -5,13 +5,13 @@
   b. git init
   c. touch readme.txt && git add readme.txt && git commit -m "add readme doc"
 2. 修改文件
-  git show
+  git show [commit_id] [file]
   git status
-  git diff
+  git diff [--options] <commit> <commit> [--] [<path>...]
   git add
   git commit -m "xxx"
 3. 版本回退
-  git log [--pretty=oneline]
+  git log [--pretty=oneline] [file]
   git reset --hard HEAD^
   git reset --hard $commit_id
   git reflog
