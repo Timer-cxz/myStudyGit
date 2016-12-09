@@ -19,8 +19,8 @@
   git add 会先把修改写入暂存区，也叫Index
   git commit 再从暂存区将修改同步到master分支等
 5. 撤销修改
-  git checkout -- $file （撤销工作区）
-  git reset HEAD $file   (将暂存区的修改撤回工作区)
+  git checkout -- $file （撤销工作区, 将工作区的内容同步成和暂存区或者HEAD版本一致。）
+  git reset HEAD $file   (将暂存区的修改撤回工作区，工作区变成了修改状态，若需要进一步撤销，使用前一条命令)
   git diff HEAD^ HEAD
 6. 删除文件
   git rm

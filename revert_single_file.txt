@@ -1,0 +1,7 @@
+1. git log file
+2. git reset commit_id file
+3. git status
+    git commit -m "revert file"
+4. 更新到工作目录
+    git checkout file
+5. git push origin master
