@@ -8,6 +8,7 @@
   git show [commit_id] [file]
   git status
   git diff [--options] <commit> <commit> [--] [<path>...]
+  git diff --stat HEAD HEAD^                            # 查看两个提交之间修改了哪些文件
   git add
   git commit -m "xxx"
 3. 版本回退
