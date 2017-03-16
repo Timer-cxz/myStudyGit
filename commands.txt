@@ -42,6 +42,7 @@
   git branch [-vv]        (查看)
   git merge dev           (合并dev至当前分支)
   git branch -d|-D dev    (删除分支)
+  git checkout -b dev-cxz origin/dev-cxz
 9. 解决冲突
   git log --graph         (查看分支合并图)
 10. bug分支
