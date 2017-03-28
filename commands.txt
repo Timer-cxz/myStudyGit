@@ -16,6 +16,7 @@
   git reset --hard HEAD^
   git reset --hard $commit_id
   git reflog
+  git rm --cached <file>
 4. 工作区和暂存区，版本库
   git add 会先把修改写入暂存区，也叫Index
   git commit 再从暂存区将修改同步到master分支等
