@@ -64,6 +64,8 @@
   git tag [-a] [v1.0] [commit_id] [-m "xxx"]
   git show [tag]
   git push origin $tag|--tags
+  git tag -d $tag   删除一个本地tag
+  git push origin :refs/tags/$tag  删除一个远程tag
 13. 原始仓库同步
   git remote add upstream https://github.com/cxz19871115/myStudyGit.git
   git remote -v
