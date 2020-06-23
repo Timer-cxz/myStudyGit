@@ -59,6 +59,11 @@
   git pull                (拉取合并)
     = git fetch
       git merge
+  
+  git rebase -i HEAD^^^^^^^
+  git rebase master
+  git cherry-pick [commid_id]
+  
   git push origin master|dev    (推送分支)
 12. 标签管理
   git tag [-a] [v1.0] [commit_id] [-m "xxx"]
